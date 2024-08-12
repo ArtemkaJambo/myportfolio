@@ -1,0 +1,77 @@
+@import '../../../App.css';
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 220px;
+}
+.title {
+    color: var(--color-standard);
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.description {
+    font-size: 24px;
+    color: var(--color-standard);
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+.contact {
+    background-color: #596FB7;
+    padding: 15px 40px;
+    border-radius: 28px;
+    color: var(--color-standard);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.topBlur {
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    top: -250px;
+    left: 7vw;
+    border-radius: 764px;
+    background: rgba(22, 55, 109, 0.7);
+    filter: blur(100px);
+}
+.blurUnderImage {
+    position: absolute;
+    width: 40vw;
+    height: 20vw;
+    background: rgba(22, 55, 109, 0.7);
+    filter: blur(90px);
+    left: 45vw;
+    top: 250px;
+}
+.container img {
+    background-color: transparent;
+}
+.mainContainer {
+    display: flex;
+    align-items: center;
+}
+.mainContainer img {
+    position: absolute;
+    right: 300px;
+}
+.mainPhoto {
+    z-index: 0;
+}
+@media screen and (max-width: 1400px) {
+    .mainContainer img {
+        display: none;
+    }
+    .insideContainer {
+    }
+}
+@media screen and (max-width: 500px) {
+    .insideContainer {
+        padding-left: 130px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,77 @@
+@import '../../App.css';
+
+.container {
+    height: 500px;
+}
+.container h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+.projectList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.projectItem {
+    width: 300px;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+
+    background: linear-gradient(180deg, #696ca8 0%, #163770);
+    padding: 20px;
+    border-radius: 16px;
+}
+.prodImage {
+    padding-bottom: 20px;
+}
+.title {
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 6px;
+}
+.aboutProjects {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.stack {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.stackItem {
+    background-color: #0b2447;
+    padding: 7px;
+    width: 100px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    border-radius: 16px;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 10px;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.buttonWay {
+    border: none;
+    outline: none;
+    background-color: #576cbc;
+    padding: 4px 20px;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    border-radius: 16px;
+    cursor: pointer;
+}

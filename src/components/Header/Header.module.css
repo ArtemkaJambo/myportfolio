@@ -1,0 +1,68 @@
+@import '../../App.css';
+
+.header {
+    background-color: var(--color-blue);
+    color: var(--color-standard);
+    padding: 45px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.headerList {
+    display: flex;
+    gap: 30px;
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    flex-direction: none;
+    list-style: none;
+    cursor: pointer;
+}
+.header a {
+    font-size: 32px;
+    text-decoration: none;
+    color: var(--color-standard);
+    font-weight: 700;
+    cursor: pointer;
+}
+.menuBurger {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .header {
+    }
+    .headerList {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        position: absolute;
+        right: 150px;
+        top: 100px;
+        background: linear-gradient(0deg, rgba(39, 88, 180, 0.2) 0%,
+        rgb(51, 93, 171) 100%);
+        padding: 20px 30px;
+        border-radius: 12px;
+        gap: 10px;
+        opacity: 0;
+    }
+    .menuBurger {
+        display: block;
+    }
+    .menuOpen {
+        display: flex;
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 500px) {
+    .header img {
+        margin-left: 200px;
+    }
+    .headerList {
+        right: -50px;
+    }
+}

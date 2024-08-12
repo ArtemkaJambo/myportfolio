@@ -1,0 +1,63 @@
+@import '../../App.css';
+
+.container {
+    margin-top: 220px;
+    margin-left: 12%;
+    margin-right: 12%;
+    height: 500px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    font-weight: 800;
+}
+.stackList {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.stackItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #004399;
+    border-radius: 16px;
+    width: 150px;
+    padding: 20px 40px 60px;
+    color: rgb(193, 185, 185);
+    transition: width 0.6s ease, transform 0.6s ease; 
+    cursor: pointer;
+} 
+.stackItem:hover {
+    width: 170px;
+    transform: scale(1.1);
+}
+.stackItem h4 {
+    padding-top: 20px;
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+.jsIconN {
+    height: 80px;
+    color: yellow;
+}
+.firstBlur {
+    position: absolute;
+    background: rgba(22, 55, 109, 0.9);
+    height: 300px;
+    width: 300px;
+    filter: blur(100px);
+    top: 1200px;
+}
+.lastBlur {
+    position: absolute;
+    background: rgba(22, 55, 109, 0.7);
+    height: 200px;
+    width: 200px;
+    filter: blur(100px);
+    margin-left: 500px;   
+    top: 1700px;
+    
+}
