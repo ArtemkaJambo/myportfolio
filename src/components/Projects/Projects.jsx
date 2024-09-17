@@ -9,8 +9,8 @@ const Projects = () => {
         <ul className={styles.projectList}>
             <li className={styles.projectItem}>
                 <img src={projectImage} className={styles.prodImage} alt="" />
-                <strong className={styles.title}>Англійська for free</strong>
-                <p className={styles.aboutProjects}>Безкоштовна практика англійської мови для початківців та для просунутих</p>
+                <strong className={styles.title}>English for free</strong>
+                <p className={styles.aboutProjects}>English free for beginners and advanced</p>
                 <div className={styles.stack}>
                     <p className={styles.stackItem}>JavaScript</p>
                 </div>
@@ -23,19 +23,24 @@ const Projects = () => {
                     </a>
                 </div>
             </li>
-            {/* <li className={styles.projectItem}>
+            <li className={styles.projectItem}>
                 <img src={projectImage} className={styles.prodImage} alt="" />
-                <strong className={styles.title}>Project A</strong>
-                <p className={styles.aboutProjects}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, ea?</p>
+                <strong className={styles.title}>Shop Clothes</strong>
+                <p className={styles.aboutProjects}>A clothing store where you can buy some clothes for youself </p>
                 <div className={styles.stack}>
-                    <p className={styles.stackItem}>JavaScript</p>
                     <p className={styles.stackItem}>React</p>
+                    <p className={styles.stackItem}>TypeScript</p>
                 </div>
                 <div className={styles.buttons}>
-                    <button className={styles.buttonWay}>Demo</button>
-                    <button className={styles.buttonWay}>Github</button>
+                    <a href="https://shop-clothes-tau.vercel.app/" target='_blank'>
+                        <button className={styles.buttonWay}>Demo</button>
+                    </a>
+                    <a href="https://github.com/ArtemkaJambo/Shop-Clothes"  target='_blank'>
+                      <button className={styles.buttonWay}>Github</button>
+
+                    </a>
                 </div>
-            </li> */}
+            </li>
         </ul>
     </section>
 )

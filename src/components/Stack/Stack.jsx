@@ -5,7 +5,7 @@ import reactIcon from '../../images/react.png'
 import cssIcon from '../../images/css.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faJs } from '@fortawesome/free-brands-svg-icons';
-import nodeIcon from '../../images/node.png'
+import tsIcon from '../../images/TSicon.png'
 
 
 const Stack = () => {
@@ -30,10 +30,10 @@ const Stack = () => {
                     <FontAwesomeIcon icon={faJs} className={styles.jsIconN} />
                     <h4>JavaScript</h4>
                 </li>
-                {/* <li className={styles.stackItem}>
-                    <img src={nodeIcon} alt="" />
-                    <h4>NodeJS</h4>
-                </li>             */}
+                <li className={styles.stackItem}>
+                    <img src={tsIcon} className={styles.jsIconN}  alt="" />
+                    <h4>TypeScript</h4>
+                </li>            
             </ul>
         <div className={styles.lastBlur}></div>
         

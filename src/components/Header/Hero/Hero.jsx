@@ -10,7 +10,7 @@ const Hero = () => {
         <div className={styles.insideContainer}>
           <h1 className={styles.title}>Hi, I'm Artem</h1>
           <p className={styles.description}>I am studying to become a front-end developer <br />
-          using React and Node JS</p>
+          using React and TypeScript</p>
           <a className={styles.contact} href="https://t.me/primo887" target="_blank">Contact me</a>
           <div className={styles.topBlur}></div>
           <div className={styles.blurUnderImage}></div>
